@@ -1,2 +1,3 @@
-# BannerTouchBar
-Apple MacBook Pro TouchBar (for Banner Advertising)
+# NSTouchBar-Sample
+Apple MacBook Pro TouchBar sample Code
+I hope it helps you.
