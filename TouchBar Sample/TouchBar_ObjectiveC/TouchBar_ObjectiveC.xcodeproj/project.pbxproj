@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		208E78BA1FC2F00B00915A1D /* TouchBarItemInvoke.m in Sources */ = {isa = PBXBuildFile; fileRef = 208E78B91FC2F00B00915A1D /* TouchBarItemInvoke.m */; };
+		326B25371FA1A6AB00B04A04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 326B25361FA1A6AB00B04A04 /* AppDelegate.m */; };
+		326B253A1FA1A6AB00B04A04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 326B25391FA1A6AB00B04A04 /* main.m */; };
+		326B253D1FA1A6AB00B04A04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326B253C1FA1A6AB00B04A04 /* ViewController.m */; };
+		326B253F1FA1A6AB00B04A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326B253E1FA1A6AB00B04A04 /* Assets.xcassets */; };
+		326B25421FA1A6AB00B04A04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326B25401FA1A6AB00B04A04 /* Main.storyboard */; };
+		326B254D1FA1A6AB00B04A04 /* TouchBar_ObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 326B254C1FA1A6AB00B04A04 /* TouchBar_ObjectiveCTests.m */; };
+		326B25581FA1A6AB00B04A04 /* TouchBar_ObjectiveCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 326B25571FA1A6AB00B04A04 /* TouchBar_ObjectiveCUITests.m */; };
+		326B25681FA1A6E100B04A04 /* GTouchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 326B25671FA1A6E100B04A04 /* GTouchBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		326B25491FA1A6AB00B04A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 326B252A1FA1A6AB00B04A04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 326B25311FA1A6AB00B04A04;
+			remoteInfo = TouchBar_ObjectiveC;
+		};
+		326B25541FA1A6AB00B04A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 326B252A1FA1A6AB00B04A04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 326B25311FA1A6AB00B04A04;
+			remoteInfo = TouchBar_ObjectiveC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		208E78B81FC2F00B00915A1D /* TouchBarItemInvoke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TouchBarItemInvoke.h; path = Invoke/TouchBarItemInvoke.h; sourceTree = "<group>"; };
+		208E78B91FC2F00B00915A1D /* TouchBarItemInvoke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TouchBarItemInvoke.m; path = Invoke/TouchBarItemInvoke.m; sourceTree = "<group>"; };
+		326B25321FA1A6AB00B04A04 /* TouchBar_ObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchBar_ObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		326B25351FA1A6AB00B04A04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		326B25361FA1A6AB00B04A04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		326B25391FA1A6AB00B04A04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		326B253B1FA1A6AB00B04A04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		326B253C1FA1A6AB00B04A04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		326B253E1FA1A6AB00B04A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		326B25411FA1A6AB00B04A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		326B25431FA1A6AB00B04A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326B25481FA1A6AB00B04A04 /* TouchBar_ObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchBar_ObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		326B254C1FA1A6AB00B04A04 /* TouchBar_ObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchBar_ObjectiveCTests.m; sourceTree = "<group>"; };
+		326B254E1FA1A6AB00B04A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326B25531FA1A6AB00B04A04 /* TouchBar_ObjectiveCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchBar_ObjectiveCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		326B25571FA1A6AB00B04A04 /* TouchBar_ObjectiveCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchBar_ObjectiveCUITests.m; sourceTree = "<group>"; };
+		326B25591FA1A6AB00B04A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326B25661FA1A6E100B04A04 /* GTouchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTouchBar.h; path = TouchBar/GTouchBar.h; sourceTree = "<group>"; };
+		326B25671FA1A6E100B04A04 /* GTouchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTouchBar.m; path = TouchBar/GTouchBar.m; sourceTree = "<group>"; };
+		32A6FFEF1FA998220001C4F3 /* TouchBarDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TouchBarDefine.h; path = TouchBar/TouchBarDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		326B252F1FA1A6AB00B04A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326B25451FA1A6AB00B04A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326B25501FA1A6AB00B04A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208E78B41FC2EDC300915A1D /* Invoke */ = {
+			isa = PBXGroup;
+			children = (
+				208E78B81FC2F00B00915A1D /* TouchBarItemInvoke.h */,
+				208E78B91FC2F00B00915A1D /* TouchBarItemInvoke.m */,
+			);
+			name = Invoke;
+			sourceTree = "<group>";
+		};
+		326B25291FA1A6AB00B04A04 = {
+			isa = PBXGroup;
+			children = (
+				326B25341FA1A6AB00B04A04 /* TouchBar_ObjectiveC */,
+				326B254B1FA1A6AB00B04A04 /* TouchBar_ObjectiveCTests */,
+				326B25561FA1A6AB00B04A04 /* TouchBar_ObjectiveCUITests */,
+				326B25331FA1A6AB00B04A04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		326B25331FA1A6AB00B04A04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				326B25321FA1A6AB00B04A04 /* TouchBar_ObjectiveC.app */,
+				326B25481FA1A6AB00B04A04 /* TouchBar_ObjectiveCTests.xctest */,
+				326B25531FA1A6AB00B04A04 /* TouchBar_ObjectiveCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		326B25341FA1A6AB00B04A04 /* TouchBar_ObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				208E78B41FC2EDC300915A1D /* Invoke */,
+				326B25651FA1A6B800B04A04 /* TouchBar */,
+				326B25351FA1A6AB00B04A04 /* AppDelegate.h */,
+				326B25361FA1A6AB00B04A04 /* AppDelegate.m */,
+				326B253B1FA1A6AB00B04A04 /* ViewController.h */,
+				326B253C1FA1A6AB00B04A04 /* ViewController.m */,
+				326B253E1FA1A6AB00B04A04 /* Assets.xcassets */,
+				326B25401FA1A6AB00B04A04 /* Main.storyboard */,
+				326B25431FA1A6AB00B04A04 /* Info.plist */,
+				326B25381FA1A6AB00B04A04 /* Supporting Files */,
+			);
+			path = TouchBar_ObjectiveC;
+			sourceTree = "<group>";
+		};
+		326B25381FA1A6AB00B04A04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				326B25391FA1A6AB00B04A04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		326B254B1FA1A6AB00B04A04 /* TouchBar_ObjectiveCTests */ = {
+			isa = PBXGroup;
+			children = (
+				326B254C1FA1A6AB00B04A04 /* TouchBar_ObjectiveCTests.m */,
+				326B254E1FA1A6AB00B04A04 /* Info.plist */,
+			);
+			path = TouchBar_ObjectiveCTests;
+			sourceTree = "<group>";
+		};
+		326B25561FA1A6AB00B04A04 /* TouchBar_ObjectiveCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				326B25571FA1A6AB00B04A04 /* TouchBar_ObjectiveCUITests.m */,
+				326B25591FA1A6AB00B04A04 /* Info.plist */,
+			);
+			path = TouchBar_ObjectiveCUITests;
+			sourceTree = "<group>";
+		};
+		326B25651FA1A6B800B04A04 /* TouchBar */ = {
+			isa = PBXGroup;
+			children = (
+				326B25661FA1A6E100B04A04 /* GTouchBar.h */,
+				326B25671FA1A6E100B04A04 /* GTouchBar.m */,
+				32A6FFEF1FA998220001C4F3 /* TouchBarDefine.h */,
+			);
+			name = TouchBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		326B25311FA1A6AB00B04A04 /* TouchBar_ObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326B255C1FA1A6AB00B04A04 /* Build configuration list for PBXNativeTarget "TouchBar_ObjectiveC" */;
+			buildPhases = (
+				326B252E1FA1A6AB00B04A04 /* Sources */,
+				326B252F1FA1A6AB00B04A04 /* Frameworks */,
+				326B25301FA1A6AB00B04A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchBar_ObjectiveC;
+			productName = TouchBar_ObjectiveC;
+			productReference = 326B25321FA1A6AB00B04A04 /* TouchBar_ObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		326B25471FA1A6AB00B04A04 /* TouchBar_ObjectiveCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326B255F1FA1A6AB00B04A04 /* Build configuration list for PBXNativeTarget "TouchBar_ObjectiveCTests" */;
+			buildPhases = (
+				326B25441FA1A6AB00B04A04 /* Sources */,
+				326B25451FA1A6AB00B04A04 /* Frameworks */,
+				326B25461FA1A6AB00B04A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				326B254A1FA1A6AB00B04A04 /* PBXTargetDependency */,
+			);
+			name = TouchBar_ObjectiveCTests;
+			productName = TouchBar_ObjectiveCTests;
+			productReference = 326B25481FA1A6AB00B04A04 /* TouchBar_ObjectiveCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		326B25521FA1A6AB00B04A04 /* TouchBar_ObjectiveCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326B25621FA1A6AB00B04A04 /* Build configuration list for PBXNativeTarget "TouchBar_ObjectiveCUITests" */;
+			buildPhases = (
+				326B254F1FA1A6AB00B04A04 /* Sources */,
+				326B25501FA1A6AB00B04A04 /* Frameworks */,
+				326B25511FA1A6AB00B04A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				326B25551FA1A6AB00B04A04 /* PBXTargetDependency */,
+			);
+			name = TouchBar_ObjectiveCUITests;
+			productName = TouchBar_ObjectiveCUITests;
+			productReference = 326B25531FA1A6AB00B04A04 /* TouchBar_ObjectiveCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		326B252A1FA1A6AB00B04A04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = bruce;
+				TargetAttributes = {
+					326B25311FA1A6AB00B04A04 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					326B25471FA1A6AB00B04A04 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 326B25311FA1A6AB00B04A04;
+					};
+					326B25521FA1A6AB00B04A04 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 326B25311FA1A6AB00B04A04;
+					};
+				};
+			};
+			buildConfigurationList = 326B252D1FA1A6AB00B04A04 /* Build configuration list for PBXProject "TouchBar_ObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 326B25291FA1A6AB00B04A04;
+			productRefGroup = 326B25331FA1A6AB00B04A04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				326B25311FA1A6AB00B04A04 /* TouchBar_ObjectiveC */,
+				326B25471FA1A6AB00B04A04 /* TouchBar_ObjectiveCTests */,
+				326B25521FA1A6AB00B04A04 /* TouchBar_ObjectiveCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		326B25301FA1A6AB00B04A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326B253F1FA1A6AB00B04A04 /* Assets.xcassets in Resources */,
+				326B25421FA1A6AB00B04A04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326B25461FA1A6AB00B04A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326B25511FA1A6AB00B04A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		326B252E1FA1A6AB00B04A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326B253D1FA1A6AB00B04A04 /* ViewController.m in Sources */,
+				326B25681FA1A6E100B04A04 /* GTouchBar.m in Sources */,
+				326B253A1FA1A6AB00B04A04 /* main.m in Sources */,
+				326B25371FA1A6AB00B04A04 /* AppDelegate.m in Sources */,
+				208E78BA1FC2F00B00915A1D /* TouchBarItemInvoke.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326B25441FA1A6AB00B04A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326B254D1FA1A6AB00B04A04 /* TouchBar_ObjectiveCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326B254F1FA1A6AB00B04A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326B25581FA1A6AB00B04A04 /* TouchBar_ObjectiveCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		326B254A1FA1A6AB00B04A04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 326B25311FA1A6AB00B04A04 /* TouchBar_ObjectiveC */;
+			targetProxy = 326B25491FA1A6AB00B04A04 /* PBXContainerItemProxy */;
+		};
+		326B25551FA1A6AB00B04A04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 326B25311FA1A6AB00B04A04 /* TouchBar_ObjectiveC */;
+			targetProxy = 326B25541FA1A6AB00B04A04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		326B25401FA1A6AB00B04A04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326B25411FA1A6AB00B04A04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		326B255A1FA1A6AB00B04A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		326B255B1FA1A6AB00B04A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		326B255D1FA1A6AB00B04A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBar_ObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TouchBar-ObjectiveC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		326B255E1FA1A6AB00B04A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBar_ObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TouchBar-ObjectiveC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		326B25601FA1A6AB00B04A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBar_ObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TouchBar-ObjectiveCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchBar_ObjectiveC.app/Contents/MacOS/TouchBar_ObjectiveC";
+			};
+			name = Debug;
+		};
+		326B25611FA1A6AB00B04A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBar_ObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TouchBar-ObjectiveCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchBar_ObjectiveC.app/Contents/MacOS/TouchBar_ObjectiveC";
+			};
+			name = Release;
+		};
+		326B25631FA1A6AB00B04A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBar_ObjectiveCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TouchBar-ObjectiveCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TouchBar_ObjectiveC;
+			};
+			name = Debug;
+		};
+		326B25641FA1A6AB00B04A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBar_ObjectiveCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TouchBar-ObjectiveCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TouchBar_ObjectiveC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		326B252D1FA1A6AB00B04A04 /* Build configuration list for PBXProject "TouchBar_ObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326B255A1FA1A6AB00B04A04 /* Debug */,
+				326B255B1FA1A6AB00B04A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326B255C1FA1A6AB00B04A04 /* Build configuration list for PBXNativeTarget "TouchBar_ObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326B255D1FA1A6AB00B04A04 /* Debug */,
+				326B255E1FA1A6AB00B04A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326B255F1FA1A6AB00B04A04 /* Build configuration list for PBXNativeTarget "TouchBar_ObjectiveCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326B25601FA1A6AB00B04A04 /* Debug */,
+				326B25611FA1A6AB00B04A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326B25621FA1A6AB00B04A04 /* Build configuration list for PBXNativeTarget "TouchBar_ObjectiveCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326B25631FA1A6AB00B04A04 /* Debug */,
+				326B25641FA1A6AB00B04A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 326B252A1FA1A6AB00B04A04 /* Project object */;
+}
