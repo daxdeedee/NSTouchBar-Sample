@@ -12,13 +12,13 @@
 
 @interface ViewController()
 @property GTouchBar* mGTouchBar;
-@property (weak) IBOutlet NSButton *buttonTypeRadio;
-@property (weak) IBOutlet NSButton *segmentedControlTypeRadio;
-@property (weak) IBOutlet NSButton *sliderTypeRadio;
-@property (weak) IBOutlet NSButton *popoverTypeRadio;
-@property (weak) IBOutlet NSButton *colorPickerTypeRadio;
-@property (weak) IBOutlet NSButton *scrubberTypeRadio;
-@property (weak) IBOutlet NSButton *animationTypeRadio;
+@property (weak, nonatomic) IBOutlet NSButton *buttonTypeRadio;
+@property (weak, nonatomic) IBOutlet NSButton *segmentedControlTypeRadio;
+@property (weak, nonatomic) IBOutlet NSButton *sliderTypeRadio;
+@property (weak, nonatomic) IBOutlet NSButton *popoverTypeRadio;
+@property (weak, nonatomic) IBOutlet NSButton *colorPickerTypeRadio;
+@property (weak, nonatomic) IBOutlet NSButton *scrubberTypeRadio;
+@property (weak, nonatomic) IBOutlet NSButton *animationTypeRadio;
 
 @end
 

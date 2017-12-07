@@ -12,7 +12,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface GTouchBar()<NSTouchBarDelegate, NSScrubberDelegate, NSScrubberDataSource>
-@property TouchBarItemInvoke* mTouchBarItemInvoke;
+@property (strong, nonatomic)TouchBarItemInvoke* mTouchBarItemInvoke;
 @end
 
 @implementation GTouchBar
